@@ -3,9 +3,9 @@
 pkgs.stdenv.mkDerivation rec {
   pname = "thorium-browser";
   version = "124.0.6367.218";
-# https://github.com/Alex313031/thorium/releases/download/M124.0.6367.218/Thorium_Browser_124.0.6367.218_AVX.AppImage
+# https://github.com/Alex313031/thorium/releases/download/M124.0.6367.218/thorium-browser_124.0.6367.218_AVX.deb
   src = pkgs.fetchurl {
-    url = "https://github.com/Alex313031/thorium/releases/download/M${version}/thorium-browser_${version}_amd64.deb";
+    url = "https://github.com/Alex313031/thorium/releases/download/M${version}/thorium-browser_${version}_AVX.deb";
     hash = "sha256-muNBYP6832PmP0et9ESaRpd/BIwYZmwdkHhsMNBLQE4=";
   };
 
