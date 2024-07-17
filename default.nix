@@ -6,7 +6,7 @@ pkgs.stdenv.mkDerivation rec {
 # https://github.com/Alex313031/thorium/releases/download/M124.0.6367.218/thorium-browser_124.0.6367.218_AVX.deb
   src = pkgs.fetchurl {
     url = "https://github.com/Alex313031/thorium/releases/download/M${version}/thorium-browser_${version}_AVX.deb";
-    hash = "sha256-muNBYP6832PmP0et9ESaRpd/BIwYZmwdkHhsMNBLQE4=";
+    hash = "sha256-Q3XJyaCWbKMwbqfytFX1+2AknOtWvtcUrxFpb+oE9Yc=";
   };
 
   nativeBuildInputs = with pkgs; [
